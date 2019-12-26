@@ -6,6 +6,6 @@ def ReturnRandom(matrix_size):
     if a!=b:
         return [a,b]
 
-print(ReturnRandom(15))
+print(ReturnRandom(16))
 # (ReturnRandom(15)
 
