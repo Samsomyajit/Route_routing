@@ -32,3 +32,5 @@ Important points to consider:
   4. While training (packet autonomously passing) there should be a threshold distance to cut off forever loop problem. this can be solved by calculating the total path of the packet it took to travel and comparing it with the longest distance in network. The longest distance in the network is sum of all the edges [total edge in a nxn grid = 2*n*(n-1)]. Condition can be put if (path.length(packet_id)> 2*n*(n-1)) then drop packet.
   
   
+tcconfig 0.24.1 . -> tcconfig is a tc command wrapper. Make it easy to set up traffic control of network bandwidth/latency/packet-loss/packet-corruption/etc. to a network-interface/Docker-container(veth).
+  
